@@ -26,7 +26,9 @@ namespace fashionStoreInventoryManajement.Model
             {
                 MessageBox.Show("Koneksi gagal" + ex.Message);
             }
-            return conn;
+            return conn; 
+
         }
     }
+
 }

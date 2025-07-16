@@ -61,6 +61,7 @@
             this.pnlTop.Name = "pnlTop";
             this.pnlTop.Size = new System.Drawing.Size(710, 81);
             this.pnlTop.TabIndex = 0;
+            this.pnlTop.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlTop_Paint);
             // 
             // lblClose
             // 

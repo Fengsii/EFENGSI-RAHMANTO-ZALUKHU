@@ -136,5 +136,7 @@ namespace fashionStoreInventoryManajement.View
             txtPricee.MaxLength = 7;
             txtStockProduct.MaxLength = 4;
         }
+
+      
     }
 }

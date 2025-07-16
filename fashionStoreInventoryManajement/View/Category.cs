@@ -1,9 +1,11 @@
 ﻿using fashionStoreInventoryManajement.Controller;
 using MySqlConnector;
 using System;
+
+//using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
+using System.Data;  
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -163,5 +165,7 @@ namespace fashionStoreInventoryManajement.View
         {
             dgvCategoryy.DataSource = fashionStoreController.SearchCategory(txtSearch.Text);
         }
+
+      
     }
 }

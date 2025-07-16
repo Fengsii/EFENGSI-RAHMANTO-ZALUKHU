@@ -44,5 +44,9 @@ namespace fashionStoreInventoryManajement.View
             this.Hide();
         }
 
+        private void pnlTop_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

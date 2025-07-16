@@ -17,7 +17,7 @@ namespace fashionStoreInventoryManajement.View
     public partial class Product : Form
     {
         FashionStoreController fashionStoreController;
-        public Product()
+        public Product()//constrakto
         {
             fashionStoreController = new FashionStoreController();
             InitializeComponent();

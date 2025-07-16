@@ -138,8 +138,8 @@ namespace fashionStoreInventoryManajement.View
                 try
                 {
                     fashionStoreController.deleteSupplier(txtIdSupp.Text);
-                    showTable();
-                    btnClearSupp.PerformClick();
+                    showTable();// mengupdate tabel
+                    btnClearSupp.PerformClick();//mengosongkan fiel input
                     MessageBox.Show("Supplier delete succesfully", "Delete Supplier",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }

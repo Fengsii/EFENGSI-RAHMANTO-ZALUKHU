@@ -70,7 +70,7 @@ namespace fashionStoreInventoryManajement.View
 
             if (!validasiController.ValidasiHanyaAngka(txtIdProduct.Text))
             {
-                MessageBox.Show("Harga hanya boleh berupa angka.", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("ID Product hanya boleh berupa angka.", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtIdProduct.Focus();
                 return;
             }

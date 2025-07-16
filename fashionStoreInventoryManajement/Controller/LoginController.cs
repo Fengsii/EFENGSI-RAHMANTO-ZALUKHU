@@ -27,6 +27,7 @@ namespace fashionStoreInventoryManajement.Controller
             {
                 MessageBox.Show(ex.Message);
             }
+
             return table;
         }
 

@@ -345,7 +345,7 @@ namespace fashionStoreInventoryManajement.Controller
                 return false;
             }
 
-            string containsNumbersPattern = @"\d"; 
+            string containsNumbersPattern = @"\d"; // MENGECEK ANGKA //Simbol regex untuk mencocokkan angka desimal tunggal (digit 0 hingga 9).
             if (Regex.IsMatch(NameProduct, containsNumbersPattern))
             {
                 return false;
@@ -408,8 +408,8 @@ namespace fashionStoreInventoryManajement.Controller
                 return false;
             }
 
-            string hanyaAngkaPattern = @"^\d+$"; 
-            if (!Regex.IsMatch(input, hanyaAngkaPattern))
+            string hanyaAngkaPattern = @"^\d+$";//Angka saja 0 - 9 (Rgex untuk mencocokkan angka)
+            if (!Regex.IsMatch(input, hanyaAngkaPattern))// True = False > if tdk di esekusi tapi Kalau False = True > if di esekusi
             {
                 return false;
             }
@@ -427,7 +427,8 @@ namespace fashionStoreInventoryManajement.Controller
                 return false;
             }
 
-            if (nomorHP.Any(c => !char.IsDigit(c) && c != '+' && c != ' '))
+            if (nomorHP.Any(c => !char.IsDigit(c) && c != '+' && c != ' '))// Any fungsinya memeriksa setiap karakter dalam string HP / C  Representasi karakter no HP  
+                                                                           //Lambda Expression 
             {
                 return false;
             }
@@ -457,6 +458,7 @@ namespace fashionStoreInventoryManajement.Controller
 
             // Cek jumlah spasi maksimal 3
             int jumlahSpasi = nama.Count(c => c == ' ');
+            //                           lambda expression, Mengecek apakah karakter adalah spasi.
             if (jumlahSpasi > 3)
             {
                 return false;

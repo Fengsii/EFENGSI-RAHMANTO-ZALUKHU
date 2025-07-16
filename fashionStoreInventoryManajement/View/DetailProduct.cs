@@ -41,5 +41,7 @@ namespace fashionStoreInventoryManajement.View
             txtDate.Text = Date;
             pictProduct.Image = ProductImage;
         }
+
+       
     }
 }

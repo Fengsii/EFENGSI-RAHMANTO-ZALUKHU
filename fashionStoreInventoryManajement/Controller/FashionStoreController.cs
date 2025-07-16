@@ -284,7 +284,7 @@ namespace fashionStoreInventoryManajement.Controller
             SELECT 
                 s.nama_supplier AS 'Nama Supplier',
                 p.nama_baju AS 'Nama Produk',
-                p.jumlah AS 'Stok',
+                p.jumlah AS 'Jumlah',
                 p.harga AS 'Harga',
                 (p.jumlah * p.harga) AS 'Total',
                 p.ukuran AS 'Ukuran',
@@ -642,7 +642,7 @@ namespace fashionStoreInventoryManajement.Controller
         }
 
 
-       //======================= SEARCH PRODUCT ==================\\
+       //======================= SEARCH SALES ==================\\
         public DataTable SearchSales(string search, DateTime? tanggalPenjualan = null)
         {
             DataTable dt = new DataTable();

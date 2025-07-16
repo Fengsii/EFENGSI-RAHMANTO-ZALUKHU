@@ -227,7 +227,7 @@
             // 
             this.lblSales.AutoSize = true;
             this.lblSales.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSales.Location = new System.Drawing.Point(185, 522);
+            this.lblSales.Location = new System.Drawing.Point(718, 522);
             this.lblSales.Name = "lblSales";
             this.lblSales.Size = new System.Drawing.Size(144, 25);
             this.lblSales.TabIndex = 6;
@@ -237,7 +237,7 @@
             // 
             this.lblPurchases.AutoSize = true;
             this.lblPurchases.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPurchases.Location = new System.Drawing.Point(682, 522);
+            this.lblPurchases.Location = new System.Drawing.Point(173, 522);
             this.lblPurchases.Name = "lblPurchases";
             this.lblPurchases.Size = new System.Drawing.Size(191, 25);
             this.lblPurchases.TabIndex = 7;
